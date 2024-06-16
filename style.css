@@ -1,0 +1,36 @@
+*{
+    direction: rtl !important;
+}
+* {
+    font-family: 'IRANYekan', sans-serif !important;
+ }
+
+body {
+    display: flex;
+    justify-content: center;
+}
+.root {
+    width: 100%;
+    max-width: 1200px;
+}
+span , p{
+    font-size: 12px !important;
+}
+.head {
+    width: 100%;
+    height: 70px;
+    position: fixed ;
+    top: 0;
+    left: 0;
+    background-color: #0d5858;
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.body{
+    margin-top: 6rem;
+}
+.image_handle{
+    max-width: 115px !important;
+    height: auto !important;
+}
