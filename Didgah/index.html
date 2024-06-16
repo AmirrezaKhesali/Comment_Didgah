@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.cdnfonts.com/css/iranyekan" rel="stylesheet">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/iranyekan');
+    </style>
+    <title>Didgah</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="didgah-backdrop"></div>
+    <div class="main-page">
+
+        <div class="col-12 col-md-8 comment h-75 ">
+            <div class="card mb-4 h-100 overflow-auto ">
+                <div class="card-header d-flex justify-content-between complition static-head-didgah">
+                    <div class="d-flex justify-content-evenly flex-column align-items-start  ">
+                        <span class="font-16">نظرات شما</span>
+                        <span class="font-12 text-secondary ">محصولی که دیدگاه برایش می خواهید بگذارید</span>
+                    </div>
+                    <div class="text-center mt-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                            class="bi bi-x" viewBox="0 0 16 16">
+                            <path
+                                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row gy-3">
+                        <div class="col-12 col-md-6 ">
+                            <div class="mb-3 text-center ">
+                                <label for="formRange" class="w-100 mb-4">میزان رضایت</label>
+                                <input type="range" class="w-100 " min="0" max="5" id="formRange">
+                            </div>
+                            <hr class="p-0 ">
+
+                            <span class="p-3 text-align-start d-block w-100 complition">فرم نظرات</span>
+                            <div class="card-body">
+                                <div class="mb-4 text-align-start">
+                                    <label for="textInput" class="form-label">عنوان</label>
+                                    <input type="text" class="form-control" id="textInput" placeholder="">
+                                </div>
+
+                                <div class="mb-4 text-align-start">
+                                    <label for="textInput1" class="form-label">نظرات مثبت</label>
+                                    <div class="input-group" id="textInput1">
+                                        <input type="text" class="form-control radius-8">
+                                        <span class="input-group-text form-icon-fixed">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="mb-4 text-align-start">
+                                    <label for="textInput1" class="form-label">نظرات منفی</label>
+                                    <div class="input-group" id="textInput1">
+                                        <input type="text" class="form-control radius-8">
+                                        <span class="input-group-text form-icon-fixed">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="mb-4 text-align-start">
+                                    <label for="textInput" class="form-label">پیشنهادات</label>
+                                    <input type="text" class="form-control" id="textInput" placeholder="">
+                                </div>
+
+                                <div class="mb-4 text-align-start">
+                                    <label for="textInput" class="form-label">انتقادات</label>
+                                    <input type="text" class="form-control" id="textInput" placeholder="">
+                                </div>
+
+
+                                <div class="d-flex justify-content-start align-items-center px-1 ">
+                                    <div style="margin-top: 4px; margin-left: 8px;">
+                                        <input class="mt-2" type="checkbox" value="">
+                                    </div>
+                                    <div>
+                                        <span class="font-10">
+                                            چک باکس کاستوم
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="d-none d-md-block col-md-6 ">
+                            <div class="border radius-8 h-100 w-100 p-4">
+                                <div class=" h-100 w-100 d-flex justify-content-evenly align-items-start flex-column ">
+                                    <h3 class="mb-4 ">شروع متن با یک تگ اچ3 است</h3>
+                                    <h5 class="mb-2">شماره 1 : </h5>
+                                    <p class="mb-4 text-align-justify">این تست شماره یک می باشد می ن تست شماره یک می باشد می واند برای تست استفاده واند برای تست استن تست شماره یک می باشد می واند برای تست استفادبرای تست استن تست شماره یک می باشد می واند به فاده شود</p>
+                                    <h5 class="mb-2">شماره 2 : </h5>
+                                    <p class="mb-4 text-align-justify">این تست شماره یک می باشد می واند برای تست ن تست شماره یک می باشد می واند برای تستبرای تست استن تست شماره یک می باشد می واند ب استفاده استفاده شود</p>
+                                    <h5 class="mb-2">شماره 3 : </h5>
+                                    <p class="mb-4 text-align-justify">این تست شماره یک می باشد می واندن تست شماره یک می باشد می واند برای تست استفاده  برای تست استفان تست شماره یک می باشد می واند برای تست برای تست استن تست شماره یک می باشد می واند باستفاده ده شود</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="py-1 ">
+                    <div class="row">
+                        <div class="col-12 col-md-6 text-center ">
+                            <button class="btn btn-warning w-75 radius-8 w-88 font-14 main-btn-color ">ثبت نظر و
+                                دیدگاه</button>
+                        </div>
+                        <div class="col-12 col-md-6 text-center ">
+                            <span class="font-10">قسمتی که با <span class="text-danger  ">قوانین و مقررات</span> موافقت
+                                می شه</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>
